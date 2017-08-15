@@ -5,7 +5,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-    <title><?= $site->title()->value(); ?> | <?= $page->title()->value(); ?></title>
+    <title><?= $page->title()->value(); ?> | <?= $site->title()->value(); ?></title>
     <meta name="description" content="<?= $site->description()->value(); ?>">
     <meta name="keywords" content="<?= $site->keywords()->value(); ?>">
 
