@@ -29,6 +29,8 @@
 </head>
 <body>
 
-<?php snippet('menu'); ?>
+<header class="header">
+	<?php snippet('menu'); ?>
+</header>
 
 <main class="main">
