@@ -1,5 +1,10 @@
 title: Site
 
+pages:
+  template:
+    - default
+    - onepager
+
 fields:
 
   title:
@@ -13,6 +18,8 @@ fields:
   description:
     label: Description
     type:  textarea
+    validate:
+      maxLength: 255
 
   keywords:
     label: Keywords

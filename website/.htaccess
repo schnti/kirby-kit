@@ -1,28 +1,44 @@
+#AuthType Basic
+#AuthName "Password Protected Area"
+#AuthUserFile /kunden/376913_72202/webseiten/prodax/.htpasswd
+#Require valid-user
+
 # PERFORMANCE
+<IfModule mod_deflate.c>
+ <FilesMatch "\.(ico|flv|woff|ttf|jpg|jpeg|png|gif|svg|js|css)$">
+  ExpiresActive on
+  ExpiresDefault "access plus 1 month"
+  SetOutputFilter DEFLATE
+ </FilesMatch>
+</IfModule>
 
-#SetOutputFilter DEFLATE
-#
-#BrowserMatch ^Mozilla/4 gzip-only-text/html
-#BrowserMatch ^Mozilla/4\.0[678] no-gzip
-#BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+# SECURITY
+Header unset Content-Security-Policy
+Header always set Content-Security-Policy "default-src data: 'unsafe-inline' 'unsafe-eval' http: https://*.google.com https://stats.kleiner-als.de"
+#Header always set Content-Security-Policy "default-src data: http: https://*.google.com https://stats.kleiner-als.de; script-src 'unsafe-inline';"
+#Header always set Content-Security-Policy "default-src data: http: https://*.google.com https://stats.kleiner-als.de;"
+# Hilfe: https://report-uri.io/home/generate
 
-#<FilesMatch "(?i)^.*\.(ico|flv|woff|ttf|jpg|jpeg|png|gif|svg|js|css)$">
-#ExpiresActive On
-## 30 tage
-#ExpiresDefault A2592000
-#</FilesMatch>
+Header unset X-Frame-Options
+Header always set X-Frame-Options "SAMEORIGIN"
+Header unset X-Xss-Protection
+Header always set X-Xss-Protection "1; mode=block"
+Header unset X-Content-Type-Options
+Header always set X-Content-Type-Options "nosniff"
+Header unset Referrer-Policy
+Header always set Referrer-Policy "no-referrer-when-downgrade"
 
-## SECURITY
-#Header always set Content-Security-Policy "default-src data: 'unsafe-inline' 'unsafe-eval' http: https://*.google.com https://stats.kleiner-als.de"
-## Hilfe: https://report-uri.io/home/generate
-#
-#Header always set X-Frame-Options "SAMEORIGIN"
-#Header always set X-Xss-Protection "1; mode=block"
-#Header always set X-Content-Type-Options "nosniff"
-#Header always set Referrer-Policy "no-referrer-when-downgrade"
-#
 ## force https
+#Header unset Strict-Transport-Security
 #Header always set Strict-Transport-Security "max-age=31536000;"
+
+#Remove the footer from error pages, which details the version numbers:
+ServerSignature Off
+
+# Hide X-Powered-By and Server headers, sent by downstream application servers:
+# Note you need both below as the "always" one doesn't work with Jboss for some reason
+Header always unset X-Powered-By
+Header unset X-Powered-By
 
 # Kirby .htaccess
 

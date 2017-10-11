@@ -1,0 +1,17 @@
+title: Modules
+pages:
+  template:
+    - module.columns-1
+    - module.columns-2
+    - module.columns-3
+    - module.blog
+    - module.teaser
+    - module.termine
+
+hide: true
+
+fields:
+
+  redirect:
+    label: Redirect
+    type: redirect

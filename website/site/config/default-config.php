@@ -2,14 +2,16 @@
 
 c::set('license', 'put your license key here');
 
-c::set('debug', true);
+c::set('debug', false);
 
 c::set('date.handler', 'strftime');
+c::set('locale','de_DE.UTF-8');
 
-//c::set('panel.stylesheet', 'assets/css/panel.css');
+c::set('panel.stylesheet', 'assets/css/panel.css');
 
 // 3rd Party
-c::set('plugin.html.minifier.active', false);
+//c::set('plugin.html.minifier.active', true);
+//c::set('krb_html_min', true);
 
 c::set('uniform.language', 'de');
 
@@ -17,14 +19,15 @@ c::set('uniform.language', 'de');
 
 
 // ka plugins
-// TODO image shrink config
+c::set('ka.seo-checker.google.apikey', '');
+
 c::set('ka.image.shrink.maxDimension', 1500);
 
 // TODO piwik config
 //c::set('ka.piwik.url', 'stats.kleiner-als.de');
 //c::set('ka.piwik.id', 0);
 //c::set('ka.piwik.tracking', false);
-//c::set('ka.piwik.trackingIfLoggedIn', true);
+//c::set('ka.piwik.trackingIfLoggedIn', false);
 //c::set('ka.piwik.widget', true);
 //c::set('ka.piwik.apitoken', '');
 //c::set('ka.piwik.language', 'de');
@@ -42,7 +45,7 @@ c::set('ka.image.shrink.maxDimension', 1500);
 // TODO sitemap config
 //c::set('ka.sitemap.excludeSites', array('error', 'sitemap', 'kontakt/danke'));
 //c::set('ka.sitemap.excludeTemplates', array('fahrzeug', 'leistung'));
-//c::set('ka.sitemap.includeSites', array('impressum', 'datenschutz'));
+//c::set('ka.sitemap.includeSites', array('impressum', 'datenschutzerklaerung'));
 //c::set('ka.sitemap.showInvisibleSites', false);
 //c::set('ka.sitemap.importantSites', array('kontakt'));
 

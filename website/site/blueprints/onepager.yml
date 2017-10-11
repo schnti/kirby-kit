@@ -1,0 +1,28 @@
+title: OnePager
+
+pages:
+  build:
+    - title: _modules
+      uid: modules
+      template: modules
+  hide: true
+
+files: false
+
+fields:
+
+  title:
+    label: Title
+    type:  text
+
+  sortable:
+    label: Module
+    type: modules
+
+    layout: module
+    variant: modules
+
+    parent: modules
+
+    options:
+      preview: true

@@ -1,0 +1,19 @@
+.module__termine {
+
+  h2 {
+    text-align: center;
+  }
+
+  .cal {
+
+    margin-left: 50px;
+    margin-bottom: 20px;
+
+    .glyphicon {
+      font-size: 35px;
+      position: absolute;
+      margin-left: -45px;
+      margin-top: 15px;
+    }
+  }
+}

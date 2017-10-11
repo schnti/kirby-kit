@@ -1,0 +1,19 @@
+title: Teaser - Module
+
+pages: false
+
+preview: grandparent
+
+files: false
+
+fields:
+
+  prevnext: prevnext
+
+  title:
+    label: Title
+    type:  text
+
+  text:
+    label: Text
+    type:  textarea
