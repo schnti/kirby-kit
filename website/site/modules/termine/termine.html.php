@@ -2,7 +2,7 @@
     <div class="container">
 
 		<?php if ($module->titleDisplay()->bool()): ?>
-            <h2><?= $module->title()->html() ?></h2>
+            <h2><?= $module->title()->html(); ?></h2>
 		<?php endif; ?>
 
 		<?php $datetime = new DateTime('yesterday'); ?>
@@ -34,7 +34,7 @@
 								}
 								?>
 
-								<?= $event->date('%d. %b. %Y', 'date') ?><?= $time; ?>
+								<?= $event->date('%d. %b. %Y', 'date'); ?><?= $time; ?>
 
                             </div>
                         </div>
