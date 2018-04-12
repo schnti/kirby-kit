@@ -11,20 +11,18 @@
 
 	<?= css('assets/css/styles.min.css'); ?>
 
-    <!--  TODO AUTO GENERATE  -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/assets/favicon/manifest.json">
-    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#ed2129">
-    <!--    <link rel="shortcut icon" href="favicon.ico">-->
-
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#952641">
+    <link rel="shortcut icon" href="/favicon.ico">
     <meta name="apple-mobile-web-app-title" content="<?= $site->title()->value(); ?>">
     <meta name="application-name" content="<?= $site->title()->value(); ?>">
-    <meta name="msapplication-TileColor" content="#ed2129">
+    <meta name="msapplication-TileColor" content="#952641">
     <meta name="msapplication-TileImage" content="/assets/favicon/mstile-144x144.png">
     <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#ed2129">
+    <meta name="theme-color" content="#ea1c42">
 
 </head>
 <body>
