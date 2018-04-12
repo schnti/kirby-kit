@@ -8,8 +8,8 @@
 
 <? //= piwik(); ?>
 
-<?= js('assets/js/bower.js', false); ?>
-<?= js('assets/js/main.js', false); ?>
+<?= js('assets/js/bower.js', ['defer' => true]); ?>
+<?= js('assets/js/main.min.js', ['defer' => true]); ?>
 
 <? //= cookie(); ?>
 
