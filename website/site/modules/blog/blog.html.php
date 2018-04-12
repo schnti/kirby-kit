@@ -1,4 +1,5 @@
 <div class="wrapper <?= str_replace('.', '__', $module->module()->template()); ?>">
+    <div class="anchor" id="<?= $module->uid(); ?>"></div>
     <div class="container">
 
         <div class="row">
@@ -9,7 +10,7 @@
 				<?= $module->text()->kirbytext(); ?>
             </div>
             <div class="col-md-pull-6 col-md-6">
-				<?php if ($image = $module->image($module->picture())) : ?>
+				<?php if ($image = $module->picture->toFile()) : ?>
                     <img src="<?= $image->crop(600, 400)->url(); ?>" class="img-responsive" alt=""/>
 				<?php endif; ?>
             </div>
