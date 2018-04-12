@@ -5,9 +5,11 @@ c::set('license', 'put your license key here');
 c::set('debug', false);
 
 c::set('date.handler', 'strftime');
-c::set('locale','de_DE.UTF-8');
+c::set('locale', 'de_DE.UTF-8');
 
 c::set('panel.stylesheet', 'assets/css/panel.css');
+
+c::set('cachebuster', true);
 
 // 3rd Party
 //c::set('plugin.html.minifier.active', true);
@@ -19,12 +21,12 @@ c::set('uniform.language', 'de');
 
 
 // ka plugins
-c::set('ka.seo-checker.google.apikey', '');
+c::set('ka.info.key', '');
 
 c::set('ka.image.shrink.maxDimension', 1500);
 
 // TODO piwik config
-//c::set('ka.piwik.url', 'stats.kleiner-als.de');
+//c::set('ka.piwik.url', 'https://stats.kleiner-als.de');
 //c::set('ka.piwik.id', 0);
 //c::set('ka.piwik.tracking', false);
 //c::set('ka.piwik.trackingIfLoggedIn', false);
