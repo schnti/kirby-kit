@@ -1,0 +1,13 @@
+h___ Sofortüberweisung
+
+Auf unserer Website bieten wir u.a. die Bezahlung mittels “Sofortüberweisung” an. Anbieter dieses Zahlungsdienstes ist die Sofort GmbH, Theresienhöhe 12, 80339 München (im Folgenden “Sofort GmbH”).
+
+Mit Hilfe des Verfahrens “Sofortüberweisung” erhalten wir in Echtzeit eine Zahlungsbestätigung von der Sofort GmbH und können unverzüglich mit der Erfüllung unserer Verbindlichkeiten beginnen.
+
+Wenn Sie sich für die Zahlungsart “Sofortüberweisung” entschieden haben, übermitteln Sie die PIN und eine gültige TAN an die Sofort GmbH, mit der diese sich in Ihr Online-Banking-Konto einloggen kann. Sofort GmbH überprüft nach dem Einloggen automatisch Ihren Kontostand und führt die Überweisung an uns mit Hilfe der von Ihnen übermittelten TAN durch. Anschließend übermittelt sie uns unverzüglich eine Transaktionsbestätigung. Nach dem Einloggen werden außerdem Ihre Umsätze, der Kreditrahmen des Dispokredits und das Vorhandensein anderer Konten sowie deren Bestände automatisiert geprüft.
+
+Neben der PIN und der TAN werden auch die von Ihnen eingegebenen Zahlungsdaten sowie Daten zu Ihrer Person an die Sofort GmbH übermittelt. Bei den Daten zu Ihrer Person handelt es sich um Vor- und Nachname, Adresse, Telefonnummer(n), Email-Adresse, IP-Adresse und ggf. weitere zur Zahlungsabwicklung erforderliche Daten. Die Übermittlung dieser Daten ist notwendig, um Ihre Identität zweifelsfrei zu festzustellen und Betrugsversuchen vorzubeugen.
+
+Die Übermittlung Ihrer Daten an die Sofort GmbH erfolgt auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO (Einwilligung) und Art. 6 Abs. 1 lit. b DSGVO (Verarbeitung zur Erfüllung eines Vertrags). Sie haben die Möglichkeit, Ihre Einwilligung zur Datenverarbeitung jederzeit zu widerrufen. Ein Widerruf wirkt sich auf die Wirksamkeit von in der Vergangenheit liegenden Datenverarbeitungsvorgängen nicht aus.
+
+Details zur Zahlung mit Sofortüberweisung entnehmen Sie folgenden Links: (link: https://www.sofort.de/datenschutz.html) und (link: https://www.klarna.com/sofort/).

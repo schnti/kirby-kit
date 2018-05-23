@@ -1,0 +1,9 @@
+h___ Klarna
+
+Auf unserer Website bieten wir u.a. die Bezahlung mit den Diensten von Klarna an. Anbieter ist die Klarna AB, Sveavägen 46, 111 34 Stockholm, Schweden (im Folgenden “Klarna”).
+
+Klarna bietet verschiedene Zahlungsoptionen an (z.B. Ratenkauf). Wenn Sie sich für die Bezahlung mit Klarna entscheiden (Klarna-Checkout-Lösung), wird Klarna verschiedene personenbezogene Daten von Ihnen erheben. Details hierzu können Sie in der Datenschutzerklärung von Klarna unter folgendem Link nachlesen: (link: https://www.klarna.com/de/datenschutz/).
+
+Klarna nutzt Cookies, um die Verwendung der Klarna-Checkout-Lösung zu optimieren. Die Optimierung der Checkout-Lösung stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar. Cookies sind kleine Textdateien, die auf Ihrem Endgerät gespeichert werden und keinen Schaden anrichten. Sie verbleiben auf Ihrem Endgerät bis Sie sie löschen. Details zum Einsatz von Klarna-Cookies entnehmen Sie folgendem Link: (link: https://cdn.klarna.com/1.0/shared/content/policy/cookie/de_de/checkout.pdf).
+
+Die Übermittlung Ihrer Daten an Klarna erfolgt auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO (Einwilligung) und Art. 6 Abs. 1 lit. b DSGVO (Verarbeitung zur Erfüllung eines Vertrags). Sie haben die Möglichkeit, Ihre Einwilligung zur Datenverarbeitung jederzeit zu widerrufen. Ein Widerruf wirkt sich auf die Wirksamkeit von in der Vergangenheit liegenden Datenverarbeitungsvorgängen nicht aus.

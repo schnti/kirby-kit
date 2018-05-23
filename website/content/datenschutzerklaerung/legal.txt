@@ -1,0 +1,5 @@
+Title: Datenschutzerklärung
+
+----
+
+Text: (legal: datenschutz h1: false h2: ##)

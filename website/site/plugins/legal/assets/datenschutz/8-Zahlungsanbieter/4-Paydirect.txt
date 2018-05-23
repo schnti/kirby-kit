@@ -1,0 +1,9 @@
+h___ Paydirect
+
+Auf unserer Website bieten wir u.a. die Bezahlung mittels Paydirekt an. Anbieter dieses Zahlungsdienstes ist die Paydirekt GmbH, Hamburger Allee 26-28, 60486 Frankfurt am Main, Deutschland (im Folgenden “Paydirekt”).
+
+Wenn Sie die Bezahlung mittels Paydirekt ausführen, erhebt Paydirekt verschiedene Transaktionsdaten und leitet diese an die Bank weiter, bei der Sie mit Paydirekt registriert sind. Neben den für die Zahlung erforderlichen Daten erhebt Paydirekt im Rahmen der Transaktionsabwicklung ggf. weitere Daten wie z.B. Lieferadresse oder einzelne Positionen im Warenkorb.
+
+Paydirect authentifiziert die Transaktion anschließend mit Hilfe des bei der Bank hierfür hinterlegten Authentifizierungsverfahrens. Anschließend wird der Zahlbetrag von Ihrem Konto auf unser Konto überwiesen. Weder wir noch Dritte haben Zugriff auf Ihre Kontodaten.
+
+Details zur Zahlung mit Paydirekt entnehmen Sie den AGB und den Datenschutzbestimmungen von Paydirekt unter: (link: https://www.paydirekt.de/agb/index.html).

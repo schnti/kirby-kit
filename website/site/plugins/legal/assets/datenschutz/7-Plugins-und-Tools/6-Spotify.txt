@@ -1,0 +1,9 @@
+h___ Spotify
+
+Auf unseren Seiten sind Funktionen des Musik-Dienstes Spotify eingebunden. Anbieter ist die Spotify AB, Birger Jarlsgatan 61, 113 56 Stockholm in Schweden. Die Spotify Plugins erkennen Sie an dem grünen Logo auf unserer Seite. Eine Übersicht über die Spotify-Plugins finden Sie unter: (link: https://developer.spotify.com).
+
+Dadurch kann beim Besuch unserer Seiten über das Plugin eine direkte Verbindung zwischen Ihrem Browser und dem Spotify-Server hergestellt werden. Spotify erhält dadurch die Information, dass Sie mit Ihrer IP-Adresse unsere Seite besucht haben. Wenn Sie den Spotify Button anklicken während Sie in Ihrem Spotify-Account eingeloggt sind, können Sie die Inhalte unserer Seiten auf Ihrem Spotify Profil verlinken. Dadurch kann Spotify den Besuch unserer Seiten Ihrem Benutzerkonto zuordnen.
+
+Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Spotify: (link: https://www.spotify.com/de/legal/privacy-policy/).
+
+Wenn Sie nicht wünschen, dass Spotify den Besuch unserer Seiten Ihrem Spotify-Nutzerkonto zuordnen kann, loggen Sie sich bitte aus Ihrem Spotify-Benutzerkonto aus.

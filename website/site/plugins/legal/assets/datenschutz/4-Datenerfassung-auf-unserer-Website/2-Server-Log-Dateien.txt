@@ -1,0 +1,14 @@
+h___ Server-Log-Dateien
+
+Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-Dateien, die Ihr Browser automatisch an uns übermittelt. Dies sind:
+
+* Browsertyp und Browserversion
+* verwendetes Betriebssystem
+* Referrer URL
+* Hostname des zugreifenden Rechners
+* Uhrzeit der Serveranfrage
+* IP-Adresse
+
+Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen.
+
+Grundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. f DSGVO, der die Verarbeitung von Daten zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen gestattet.

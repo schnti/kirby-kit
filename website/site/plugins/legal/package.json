@@ -1,0 +1,12 @@
+{
+  "name": "legal",
+  "description": "kirby legal tags",
+  "author": "Timo Schneider",
+  "license": "MIT",
+  "version": "1.0.0",
+  "type": "kirby-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/schnti/kirby-legal"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "info",
+  "description": "lists info about the kirby installation",
+  "author": "Timo Schneider",
+  "license": "MIT",
+  "version": "0.1.1",
+  "type": "kirby-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schnti/kirby-info"
+  }
+}

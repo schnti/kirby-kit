@@ -1,1 +1,9 @@
 Title: Site Title
+
+----
+
+Footermenu: 
+
+* (link: impressum text: Impressum)
+* (link: datenschutzerklaerung text: Datenschutzerklärung)
+* (link: sitemap text: Sitemap)

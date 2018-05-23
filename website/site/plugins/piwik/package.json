@@ -1,0 +1,12 @@
+{
+  "name": "piwik",
+  "description": "kirby piwik plugin and widget",
+  "author": "Timo Schneider",
+  "license": "MIT",
+  "version": "0.8.1",
+  "type": "kirby-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schnti/kirby-piwik"
+  }
+}

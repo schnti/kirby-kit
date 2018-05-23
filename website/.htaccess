@@ -64,6 +64,10 @@ RewriteEngine on
 #
 RewriteBase /
 
+# http to https redirect
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 # www redirect
 RewriteCond %{HTTPS} off
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
@@ -73,12 +77,12 @@ RewriteCond %{HTTPS} on
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
+# block
+RewriteRule ^log/(.*) index.php [L]
+
 # kirby cachebuster plugin ## https://github.com/getkirby-plugins/cachebuster-plugin
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.+)\.(\d+)\.(js|css)$ $1.$3 [L]
-
-# block
-RewriteRule ^log/(.*) index.php [L]
 
 # block text files in the content folder from being accessed directly
 RewriteRule ^content/(.*)\.(txt|md|mdown)$ index.php [L]

@@ -10,7 +10,7 @@
 				<?= $module->text()->kirbytext(); ?>
             </div>
             <div class="col-md-pull-6 col-md-6">
-				<?php if ($image = $module->picture->toFile()) : ?>
+				<?php if ($image = $module->picture()->toFile()) : ?>
                     <img src="<?= $image->crop(600, 400)->url(); ?>" class="img-responsive" alt=""/>
 				<?php endif; ?>
             </div>

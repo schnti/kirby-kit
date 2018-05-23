@@ -1,28 +1,23 @@
 <div class="nav-placeholder">
-    <nav class="navbar navbar-default navbar-static-top">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="<?= url(); ?>">
+				<?= $site->title(); ?>
 				<?php if ($logo = $site->image('logo.svg')): ?>
                     <img class="img-responsive" src="<?= $logo->url(); ?>" width="100" alt=""/>
-				<?php else: ?>
-                    LOGO
 				<?php endif; ?>
             </a>
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <!--Collect the nav links, forms, and other content for toggling-->
             <div class="collapse navbar-collapse" id="navbar">
-                <ul class="nav navbar-nav">
+                <ul class="navbar-nav mr-auto">
 					<?php foreach ($pages->visible() as $p): ?>
-                        <li class="<?php e($p->isOpen(), 'active'); ?>"><a href="<?= $p->url(); ?>"><span><?= $p->title()->html(); ?></span></a></li>
-					<?php endforeach ?>
+                        <li class="nav-item "><a class="nav-link" href="<?= $p->url(); ?>"><span><?= $p->title()->html(); ?></span>
+								<?php e($p->isOpen(), '<span class="sr-only">(current)</span>'); ?>  </a></li>
+					<?php endforeach; ?>
                 </ul>
             </div>
         </div>

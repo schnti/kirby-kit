@@ -2,8 +2,8 @@
 <html lang="<?= site()->language() ? site()->language()->code() : 'de'; ?>">
 <head>
 
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title><?= $page->title()->value(); ?> | <?= $site->title()->value(); ?></title>
     <meta name="description" content="<?= $site->description()->value(); ?>">

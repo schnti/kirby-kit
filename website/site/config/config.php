@@ -23,7 +23,7 @@ c::set('uniform.language', 'de');
 // ka plugins
 c::set('ka.info.key', '');
 
-c::set('ka.image.shrink.maxDimension', 1500);
+c::set('ka.image.shrink.maxDimension', 2000);
 
 // TODO piwik config
 //c::set('ka.piwik.url', 'https://stats.kleiner-als.de');
