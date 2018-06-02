@@ -2,7 +2,7 @@ Title: Site Title
 
 ----
 
-Footermenu: 
+Footerlinks:
 
 * (link: impressum text: Impressum)
 * (link: datenschutzerklaerung text: Datenschutzerklärung)

@@ -1,5 +1,5 @@
 <div class="nav-placeholder">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand" href="<?= url(); ?>">
 				<?= $site->title(); ?>

@@ -1,0 +1,19 @@
+title: Legal - Module
+
+pages: false
+
+preview: grandparent
+
+files: false
+
+fields:
+
+  prevnext: prevnext
+
+  title:
+    label: Title
+    type:  text
+
+  legal:
+    type:  legal
+

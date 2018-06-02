@@ -2,7 +2,7 @@
 
 <footer class="footer">
     <div class="container">
-        <?= $site->footermenu()->kirbytext(); ?>
+		<?= $site->footerLinks()->kirbytext(); ?>
     </div>
 </footer>
 
